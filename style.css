@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'VerdanaCustom';
+    src: url('Verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'VerdanaCustom';
+    src: url('Verdana-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  body {
+    font-family: 'VerdanaCustom', Verdana, sans-serif;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header{
+    background-color: rgba(0, 0, 0, 0.41);
+    color: white;
+  }
+
+  .header h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 0 18px 81px;
+  }
+.right-menu{
+    display: flex;
+    float: right;
+  }
+  .right-menu p{
+    font-size: 14px;
+    padding: 22px 75px 19px 24px;
+  }
+  .right-menu .green-text{
+    color: #3cb878;
+  }
+  .right-menu .calendar-logo{
+    max-width: 19px;
+    max-height: 19px;
+    padding: 17px 28px 18px 0;
+  }
+  .right-menu .forum-logo{
+    max-width: 28px;
+    max-height: 20px;
+    padding: 16px 28px 18px 0;
+  }
+  .right-menu .compass-logo{
+    max-width: 19px;
+    max-height: 19px;
+    padding: 16px 25px 18px 0;
+  }
+  .right-menu .right-menu-line{
+    max-height: 19px;
+    padding: 17px 24px 0 0;
+  }
+  section .form {
+    background-color: #fff;
+    width: 445px;
+    height: 620px;
+    margin-top: 67px;
+    border-radius: 15px;
+}

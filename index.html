@@ -3,8 +3,8 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HW4</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
@@ -17,15 +17,37 @@
                         <a href=# class="calendar-logo"><img src="images/calendar.png" alt="calendar"></a>
                         <a href="#" class="forum-logo"><img src="images/forum-logo.png" alt="forum"></a>
                         <a href="#" class="compass-logo"><img src="images/compass-logo.png" alt="compass"></a>
-                        <a href="#" class="right-menu-line"><img src="images/header-line.png"></a>
-                        <a href="#" class="login-text"><span class="green-text">Log In</span> or <span class="green-text">Sign Up</span></a>
+                        <img class="right-menu-line" src="images/header-line.png">
+                        <p class="login-text">Welcome, <a href="#" class="green-text">Log In</a> or <a href="#" class="green-text">Sign Up</a></p>
                     </div>
                 </nav>
             </header>
             <main>
                 <section class="form">
-                    
-                </section>
+                    <div class="form-header">
+                        
+                        <span class="green-box"></span><span class="sign-up-form-text">Sign Up</span><span class="log-in-form-text">Log In</span>
+                    </div>
+                    <div class="facebook-google-login">
+                        <a href="#" class="facebook-login"><img src="images/facebook-logo.png" alt="facebook login" class="facebook-logo"> <img src="images/rectangle.png" class="break-line">Facebook</a>
+                        <a href="#" class="google-login"><img src="images/logo-G+.png" alt="google login" class="google-logo"> <img src="images/rectangle.png" class="break-line">Google</a>
+                    </div>
+                    <div class="form-breaker">
+                        <img src="images/break-line.png" class="breaker-line"><span class="or-text">or</span><img src="images/break-line.png" class="breaker-line">
+                    </div>
+                    <form class="input-form">
+                            <div class="text-inputs">
+                            <input type="text" class="first-name-input" placeholder="First Name">
+                            <input type="text" class="last-name-input" placeholder="Last Name">
+                            <input type="email" class="email-input" placeholder="Email">
+                            <input type="password" class="password-input" placeholder="Choose Password">
+                            <input type="password" class="confirm-password-input" placeholder="Confirm Password">
+                        </div>
+                        <input type="checkbox" class="terms-checkbox">
+                        <label class="terms-label" for="terms-checkbox">Agree our <a href="#" class="green-text">Terms & Conditions</a></label>
+                        <button type="submit" class="submit-button">Create Account</button>
+                    </form>
+                </form>
             </main>
         </div>
     </body>
